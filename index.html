@@ -40,7 +40,7 @@
                             </a>
                         </li>
                         <li class="nav-item">
-                            <a href="#contato" class="nav-link">
+                            <a href="#fale-conosco" class="nav-link">
                                 <i class="bi bi-chat-left-text me-1"></i>
                                 Fale conosco
                             </a>
@@ -51,7 +51,7 @@
         </div>
     </header>
     
-    <div data-bs-spy="scroll" data-bs-target="#cabecalho">   
+    <div data-bs-spy="scroll" data-bs-target="#cabecalho" data-bs-smooth-scroll="true">   
         <section id="sobre-o-restaurante">
             <div class="carousel slide" data-bs-ride="carousel" id="carousel">
                 <div class="carousel-inner">
@@ -61,7 +61,7 @@
                     <div class="carousel-item" data-bs-interval="2000">
                         <img src="images/slides/slide2.png" alt="">
                     </div>
-                    <div class="carousel-item" data-bs-interval="2000">
+                    <div class="carousel-item" data-bs-interval="2000"> 
                         <img src="images/slides/slide3.png" alt="">
                     </div>
                 </div>
@@ -85,10 +85,10 @@
                         <div class="col-md-5">
                             <img src="images/restaurante.jpg" class="d-block w-100 rounded" alt="foto do restaurante">
                         </div>
-                        <div class="col-md-7">
+                        <div class="col-md-7 mt-4 mt-md-0">
                             <h2>Sobre o restaurante</h2>
                             <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ex sapiente ut omnis recusandae deserunt eligendi non aspernatur modi? Harum, magni assumenda? Quo nisi animi ratione consequatur quasi. Voluptatem, cum ab.</p>
-                            <h3>sobre o espaço</h3>
+                            <h3>Sobre o espaço</h3>
                             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Suscipit quas, consequatur odit amet beatae atque nam dignissimos magnam neque in necessitatibus quisquam nobis eligendi quia nisi optio perspiciatis laborum autem?</p>
                             <ul>
                                 <li>Item 1</li>
@@ -267,6 +267,56 @@
                                     </div>
                                 </div>
                             </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="fale-conosco" class="pt-5 pb-5">
+            <div class="container">
+                <div class="row">
+                    <h2 class="text-center">
+                        Fale conosco
+                    </h2>
+                </div>
+                <div class="row">
+                    <div class="col-md-7 mb-5">
+                        <form>
+                            <div class="mb-3">
+                                <label for="nome" class="form-label fw-bold text-colored">Seu nome</label>
+                                <input type="text" id="nome" class="form-control" required>
+                            </div>
+                            <div class="mb-3">
+                                <label for="email" class="form-label fw-bold text-colored">Seu email</label>
+                                <input type="email" id="email" class="form-control" required>
+                            </div>
+                            <div class="mb-3">
+                                <label for="telefone" class="form-label fw-bold text-colored">Seu telefone (opcional)</label>
+                                <input type="tel" id="telefone" class="form-control">
+                            </div>
+                            <div class="mb-3">
+                                <label for="mensagem" class="form-label fw-bold text-colored">Sua mensagem</label>
+                                <textarea class="form-control" id="mensagem" required></textarea>
+                            </div>
+                            <button type="submit" class="btn fw-bold">Enviar</button>
+                        </form>
+                    </div>
+                    <div class="col-md-5">
+                        <div class="row">
+                            <h3 class="fs-4 text-colored">
+                                <i class="bi bi-hand-thumbs-up-fill"></i>
+                                Redes sociais</h3>
+                            <ul class="social-links">
+                                <li class="fs-5"><a href="#"><i class="bi bi-facebook text-colored"></i></a></li>
+                                <li class="fs-5 ms-1 me-1"><a href="#"><i class="bi bi-instagram text-colored"></i></a></li>
+                                <li class="fs-5"><a href="#"><i class="bi bi-whatsapp text-colored"></i></a></li>
+                            </ul>
+                        </div>
+                        <div class="row mt-4">
+                            <h3 class="fs-4 text-colored">
+                                <i class="bi bi-cursor-fill"></i>
+                                Endereço</h3>
+                            <p>Rua teste exemplo, numero 145, no bairro bootstrap, São Paulo-SP</p>
                         </div>
                     </div>
                 </div>
