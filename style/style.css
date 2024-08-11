@@ -2,13 +2,20 @@ body {
     font-family: "Poppins", sans-serif;
 }
 
+.logo-menor {
+    width: 100px;
+    height: auto;
+    filter: brightness(0) invert(1);
+}
+
+
 .navbar {
-    background-color: #e15f41;
+    background-color: #f60403;
 }
 
 #cabecalho .nav .nav-link.active{
     background-color: #fff;
-    color: #e15f41;
+    color: #f60403;
 }
 
 #cabecalho .nav .nav-link,
@@ -18,27 +25,49 @@ body {
     color: #fff;
 }
 
+#fale-conosco label {
+    color: #656261;
+}
+
 .navbar-toggler {
     background-color: #fff;
 }
 
 #sobre-o-restaurante,
-#cardapio {
-    background-color: #ffeae6;
+#informacoes {
+    background-color: #efefef;
+}
+
+#sobre-o-restaurante li a {
+    color: #f60403;
 }
 
 .text-colored {
-    color: #e15f41;
+    color: #f60403;
 }
 
+.text-colored-gray {
+    color: #656261;
+}
+
+.text-colored-black {
+    color: black;
+}
 .nav-cardapio .nav-link.active,
 #fale-conosco button {
-    background-color: #e15f41;
+    background-color: #f60403;
     color: #fff;
 }
 
+#informacoes .col-md-4 img {
+    height: 350px;
+    object-fit: cover; 
+    width: 100%; 
+}
+
+
 .nav-cardapio .nav-link:hover {
-    color: #e15f41;
+    color: #f60403;
 }
 
 .social-links li {
@@ -48,6 +77,28 @@ body {
 
 .social-links li a {
     text-decoration: none;
+}
+
+#fale-conosco textarea {
+    resize: none;
+}
+
+#cardapio .col-md-6 img {
+    height: 230px; 
+    object-fit: cover; 
+    width: 100%; 
+}
+
+#cardapio .col-md-4 img {
+    height: 230px; 
+    object-fit: cover; 
+    width: 100%; 
+}
+
+.carousel-item img {
+    width: 100%;
+    height: 450px; 
+    object-fit: cover; 
 }
 
 @media (max-width:767px) {
